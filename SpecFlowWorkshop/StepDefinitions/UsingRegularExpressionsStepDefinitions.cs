@@ -4,7 +4,7 @@ using TechTalk.SpecFlow;
 namespace SpecFlowWorkshop.StepDefinitions
 {
     [Binding]
-    public class RegularExpressionsStepDefinitions
+    public class UsingRegularExpressionsStepDefinitions
     {
         [Given(@"I have an empty basket")]
         public void GivenIHaveAnEmptyBasket()
