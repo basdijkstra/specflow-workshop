@@ -18,11 +18,13 @@ namespace SpecFlowWorkshop.PageObjects
             this.driver.Navigate().GoToUrl("http://localhost:8080/parabank");
         }
 
-        public void LoginAs(string username, string password)
+        public LoginPage LoginAs(string username, string password)
         {
             SendKeys(textfieldUsername, username);
             SendKeys(textfieldPassword, password);
             Click(buttonLogin);
+
+            return this;
         }
     }
 }

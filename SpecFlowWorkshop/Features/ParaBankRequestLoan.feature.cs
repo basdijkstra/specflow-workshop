@@ -105,9 +105,9 @@ namespace SpecFlowWorkshop.Features
     testRunner.Given("John wants to apply for a loan", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                            "loanAmount",
-                            "downPayment",
-                            "accountNo"});
+                            "LoanAmount",
+                            "DownPayment",
+                            "FromAccountId"});
                 table1.AddRow(new string[] {
                             "1000",
                             "100",
@@ -153,9 +153,9 @@ namespace SpecFlowWorkshop.Features
     testRunner.Given("John wants to apply for a loan", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
                 TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
-                            "loanAmount",
-                            "downPayment",
-                            "accountNo"});
+                            "LoanAmount",
+                            "DownPayment",
+                            "FromAccountId"});
                 table2.AddRow(new string[] {
                             "100000",
                             "100",
