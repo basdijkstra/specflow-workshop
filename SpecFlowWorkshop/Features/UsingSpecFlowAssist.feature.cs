@@ -101,34 +101,34 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                             "Artist",
                             "Title",
                             "ReleaseYear",
                             "LengthInMinutes"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "Faithless",
                             "Sunday 8PM",
                             "1998",
                             "58"});
 #line 7
- testRunner.Given("the following album exists", ((string)(null)), table1, "Given ");
+ testRunner.Given("the following album exists", ((string)(null)), table3, "Given ");
 #line hidden
 #line 10
  testRunner.When("the album is rereleased", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "Artist",
                             "Title",
                             "ReleaseYear",
                             "LengthInMinutes"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Faithless",
                             "Sunday 8PM",
                             "2022",
                             "58"});
 #line 11
- testRunner.Then("the new album details should be", ((string)(null)), table2, "Then ");
+ testRunner.Then("the new album details should be", ((string)(null)), table4, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
